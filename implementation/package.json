@@ -1,0 +1,32 @@
+{
+    "name": "@opentreasury/opentreasury-service-implementation-ot",
+    "version": "1.0.64",
+    "description": "Implementation of service layer for OT.",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "lint:fix": "eslint . --ext .ts --fix",
+        "prettier:fix": "prettier --write 'src/**/*.ts'",
+        "install-new-treasury-api": "npm cache clean --force && npm install @opentreasury/opentreasury-service-api",
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^7.18.0",
+        "@typescript-eslint/parser": "^7.18.0",
+        "eslint": "^8.57.1",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-prettier": "^5.1.3",
+        "eslint-plugin-require-extensions": "^0.1.3",
+        "prettier": "^3.2.5",
+        "typescript": "^5.9.3"
+    },
+    "dependencies": {
+        "@livesystems/openplatform-client-ts": "^1.1.25",
+        "dotenv": "^16.4.5"
+    },
+    "license": "ISC",
+    "type": "module",
+    "files": [
+        "dist"
+    ]
+}
