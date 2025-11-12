@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+@theme {
+    --breakpoint-sm: 10rem;
+}
+
+@import './css/variables.scss';
+@import './css/layout.scss';

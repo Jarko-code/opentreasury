@@ -1,0 +1,27 @@
+/* 🌤️ Light mode */
+:root {
+    --dashboard-bg: #eff3f8;
+    --header-bg: #ffffff;
+    --header-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+    --main-bg: #ffffff;
+    --langswitch-bg: #ffffff;
+    --langswitch-hover-bg: #f3f4f6;
+    --login-form-bg: #ffffff;
+    --login-form-color: #000000;
+    --menu-active-bg: #e5e7eb;
+    --overlay-bg: rgba(255, 255, 255, 0.3);
+}
+
+/* 🌑 Dark mode override */
+.my-app-dark {
+    --dashboard-bg: #2a2a2a;
+    --header-bg: var(--surface-card);
+    --header-shadow: 0px 2px 6px rgba(255, 255, 255, 0.06);
+    --main-bg: #2f2f2f;
+    --langswitch-bg: #3a3a3a;
+    --langswitch-hover-bg: #505050;
+    --login-form-bg: #2a2a2a;
+    --login-form-color: #ffffff;
+    --menu-active-bg: #3a3a3a;
+    --overlay-bg: rgba(255, 255, 255, 0.1);
+}

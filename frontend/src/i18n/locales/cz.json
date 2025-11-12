@@ -1,0 +1,283 @@
+{
+    "default": {
+        "logout": "Odhlásit se",
+        "error": "Chyba",
+        "errorMessage": "Položka nenalezena",
+        "settings": "Nastavení",
+        "search": "Hledat podle názvu, zdroje, stavu a definice operace",
+        "columnToggle": "Zobrazit sloupce",
+        "all": "Vše",
+        "copy": "Kopírovat záznam",
+        "delete": "Smazat záznam",
+        "operation": "Spustit operaci",
+        "loading": "Načítání...",
+        "selected": "Vybrané záznamy",
+        "actions": "Akce",
+        "clearAllFilters": "Vymazat aktivní filtry",
+        "columns": "Sloupce",
+        "filters": "Filtry",
+        "filterManagement": "Správa filtrů",
+        "filterName": "Název filtru",
+        "save": "Uložit",
+        "filterSelect": "Vybraný filtr",
+        "activeFilter": "Aktivní filtr:",
+        "operator": "Operátor",
+        "value": "Hodnota",
+        "from": "Od",
+        "to": "Do",
+        "select": "Vybrat...",
+        "selectMultiple": "Vybrat více...",
+        "clear": "Vymazat",
+        "apply": "Použít",
+        "between": "Mezi",
+        "like": "Obsahuje",
+        "regex": "Regulární výraz",
+        "true": "Ano",
+        "false": "Ne",
+        "in": "V",
+        "loadFilter": "Načíst filtr",
+        "deleteFilter": "Smazat filtr",
+        "saveFilter": "Uložit filtr",
+        "deleteMessage": "Chcete odstranit tento záznam?",
+        "deleteHeader": "Nebezpečná zóna",
+        "deleteCancel": "Zrušit",
+        "operationMessage": "Chcete spustit tuto operaci?",
+        "operationHeader": "Spuštění operace",
+        "operationCancel": "Zrušit",
+        "operationSuccess": "Operace byla úspěšná",
+        "operationError": "Operace selhala",
+        "removed": "Záznam odstraněn",
+        "removedMessage": "Záznam byl úspěšně odstraněn",
+        "rejected": "Zamítnuto",
+        "rejectedMessage": "Operace byla zamítnuta",
+        "success": "Úspěch",
+        "successMessage": "Položka byla úspěšně vytvořena",
+        "reset": "Obnovit výchozí",
+        "bulkDelete": "Smazat vybrané",
+        "relativeDate": "Relativní datum",
+        "relativeDateHint": "Podporované formáty např.: 1d, 1w, 1m, 1y, -2d, 1lom (last of month), 1bom (beginning of month), 1low (last of week), 1bow (beginning of week), 1loy (last of year), 1boy (beginning of year)",
+        "new": "Nový",
+        "submit": "Odeslat",
+        "back": "Zpět",
+        "created": "Úspěch",
+        "failed": "Chyba",
+        "edit": "Upravit",
+        "saved": "Uloženo",
+        "unlink": "Odstranit propojení",
+        "wait": "Čekejte prosím..."
+    },
+    "validations": {
+        "requiredField": "Pole je povinné!"
+    },
+    "login": {
+        "userName": "Uživatelské jméno",
+        "password": "Heslo",
+        "login": "Přihlásit se",
+        "login2": "Přihlašování...",
+        "success": "Úspěch",
+        "successMessage": "Přihlášení bylo úspěšné.",
+        "error": "Chyba",
+        "errorMessage": "Přihlášení selhalo!",
+        "logout": "Odhlášení",
+        "logoutMessage": "Uživatel byl odhlášen!"
+    },
+    "documentTitle": {
+        "loginPage": "Přihlášení",
+        "dashboardPage": "Nástěnky",
+        "otPage": "OT",
+        "cashFlowDefinitionsPage": "Definice cash flow",
+        "cashFlowCashEventsPage": "Cash flow události",
+        "cashFlowCashEffectsPage": "Cash flow efekty",
+        "reportsPage": "Reporty",
+        "definitionPage": "Operace",
+        "counterpartiesPage": "Protistrany",
+        "creditRiskPage": "Úvěrové riziko",
+        "accountsPage": "Účty",
+        "accountBalancesPage": "Zůstatky účtů",
+        "accountBalanceItemsPage": "Položky zůstatků účtů",
+        "accountBalancesBlotterPage": "Přehled zůstatků účtů",
+        "accountTimelinesPage": "Časové osy účtů",
+        "reconciliationItemsPage": "Položky párování",
+        "reconciliationWorkbenchPage": "Párovací pracovní prostor",
+        "currenciesPage": "Měny",
+        "exchangeRatesPage": "Směnné kurzy",
+        "interestRatesPage": "Úrokové sazby",
+        "volatilitiesPage": "Volatility",
+        "processesPage": "Procesy",
+        "filesPage": "Soubory",
+        "mappingsPage": "Mapování",
+        "scheduledJobsPage": "Plánované úlohy",
+        "definitionsPage": "Definice zpracování",
+        "operationDefinitionsPage": "Definice operací",
+        "operationDefinitionGroupsPage": "Skupiny definic operací",
+        "operationLinkDefinitionsPage": "Definice propojení operací",
+        "cashEventGenerationScriptsPage": "Skripty pro generování cash eventů",
+        "operationLinksPage": "Propojení operací",
+        "usersPage": "Uživatelé",
+        "usersSettingsPage": "Předvolby",
+        "securityGroupsPage": "Bezpečnostní skupiny"
+    },
+    "navigation": {
+        "dashboards": "Nástěnky",
+        "cashFlow": {
+            "cashFlow": "Cash flow",
+            "reports": {
+                "reports": "Reporty"
+            },
+            "settings": {
+                "settings": "Nastavení",
+                "definitions": "Definice reportů"
+            },
+            "events": {
+                "events": "Cash eventy a efekty",
+                "cashEvents": "Cash eventy",
+                "effects": "Efekty"
+            }
+        },
+        "reports": {
+            "reports": "Reporty",
+            "var": {
+                "var": "VaR reporty"
+            },
+            "comparison": "Porovnání"
+        },
+        "operations": {
+            "operations": "Operace"
+        },
+        "counterparties": {
+            "counterparties": "Protistrany",
+            "list": "Seznam protistran",
+            "creditRisk": "Úvěrové riziko",
+            "creditRiskManagement": "Správa úvěrového rizika"
+        },
+        "accounts": {
+            "accounts": "Účty",
+            "list": "Seznam účtů",
+            "bankBalance": {
+                "bankBalance": "Bankovní zůstatky",
+                "list": "Seznam bankovních zůstatků",
+                "list2": "Seznam položek zůstatků",
+                "manualBalances": "Ruční zadání zůstatků",
+                "balancesTimeline": "Časová osa zůstatků"
+            },
+            "reconciliation": {
+                "reconciliation": "Rekonciliace",
+                "reconciliationItems": "Rekonciliované položky",
+                "manuallyReconciliation": "Ruční zadání rekonciliace"
+            }
+        },
+        "markerData": {
+            "markerData": "Tržní data",
+            "currency": "Měny",
+            "list": "Seznam měn",
+            "currencyRates": "Měnové kurzy",
+            "interestRates": "Úrokové sazby",
+            "volatility": "Volatility"
+        },
+        "processing": {
+            "processing": "Zpracování",
+            "process": {
+                "process": "Procesy",
+                "history": "Historie procesů",
+                "uploads": "Nahrané soubory",
+                "maping": "Mapování"
+            },
+            "planning": {
+                "planning": "Plánování",
+                "scheduledTasks": "Plánované úlohy"
+            },
+            "scripting": {
+                "scripting": "Skriptování",
+                "scripts": "Skripty"
+            }
+        },
+        "administration": {
+            "administration": "Administrace",
+            "operation": {
+                "operation": "Operace",
+                "operationDef": "Definice operací",
+                "operationCategory": "Kategorie definic operací",
+                "defBetweenOperation": "Definice vazeb mezi operacemi",
+                "cashEventScripts": "Skripty cash eventů",
+                "linksBetweenOperation": "Vazby mezi operacemi"
+            },
+            "security": {
+                "security": "Zabezpečení",
+                "users": "Uživatelé",
+                "usersGroup": "Skupiny uživatelů"
+            }
+        }
+    },
+    "userSettings": {
+        "header": "Uživatelské předvolby",
+        "formatting": "Formátování",
+        "decimals": "Desetinná místa",
+        "preferences": "ID předvoleb",
+        "defaultNumberSeparator": "Výchozí oddělovač desetinných míst",
+        "defaultThousandSeparator": "Výchozí oddělovač tisíců",
+        "defaultDecimalPlaces": "Výchozí počet desetinných míst",
+        "cashFlowDecimalPlaces": "Počet desetinných míst pro CF",
+        "save": "Uložit předvolby",
+        "success": "Předvolby uloženy",
+        "successMessage": "Předvolby byly úspěšně uloženy",
+        "error": "Chyba",
+        "errorMessage": "Při ukládání předvoleb došlo k chybě"
+    },
+    "operations": {
+        "create": "Vytvořit novou operaci",
+        "columns": {
+            "id": "ID",
+            "name": "Název",
+            "status": "Stav",
+            "source": "Zdroj",
+            "created": "Vytvořeno"
+        },
+        "form": {
+            "metaData": "Metadata",
+            "content": "Obsah",
+            "selectStatus": "Vyberte...",
+            "new": "Nová operace pro",
+            "edit": "Upravit operaci",
+            "audit": "Auditní informace",
+            "creator": "Tvůrce",
+            "createdTime": "Vytvořeno",
+            "updatedBy": "Aktualizoval(a)",
+            "updatedAt": "Aktualizováno",
+            "securityGroup": "Skupina",
+            "created": "Operace úspěšně vytvořena",
+            "createFailed": "Vytvoření operace selhalo",
+            "updated": "Operace úspěšně uložena",
+            "updateFailed": "Uložení operace selhalo",
+            "operationLinks": "Propojené operace",
+            "nooperationLinks": "Žádné vazby pro tuto operaci.",
+            "linkCreateFailed": "Nepodařilo se vytvořit propojení.",
+            "linkDeleteFailed": "Nepodařilo se odstranit propojení.",
+            "status": {
+                "na": "N/A",
+                "draft": "Koncept",
+                "live": "Publikováno"
+            },
+            "copy": "Kopírovat operaci"
+        }
+    },
+    "scripts": {
+        "title": "Skripty",
+        "columns": {
+            "displayName": "Zobrazený název",
+            "description": "Popis",
+            "type": "Typ"
+        },
+        "runScriptTooltip": "Spustit skript"
+    },
+    "processes": {
+        "title": "Historie procesů",
+        "columns": {
+            "id": "ID",
+            "progress": "Průběh",
+            "startedBy": "Zahájil(a)",
+            "lastMessage": "Poslední zpráva",
+            "startTime": "Čas zahájení",
+            "finishTime": "Čas dokončení"
+        }
+    }
+}

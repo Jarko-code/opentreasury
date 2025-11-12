@@ -1,0 +1,46 @@
+.layout {
+    background: var(--dashboard-bg);
+    display: grid;
+    grid-template-columns: 15rem 1fr;
+    grid-template-areas:
+        'header header'
+        'menu content';
+    overflow: hidden;
+    height: 100vh;
+
+    .aside {
+        grid-area: menu;
+        width: 15.5rem;
+        height: 100% !important;
+        background: var(--surface-card);
+        color: var(--text-color);
+    }
+
+    .header {
+        grid-area: header;
+        background: var(--header-bg);
+        color: var(--text-color);
+        box-shadow: var(--header-shadow);
+        position: relative;
+        z-index: 1;
+    }
+
+    .main {
+        grid-area: content;
+        height: 94vh;
+        color: var(--text-color);
+        .content {
+            background: var(--main-bg);
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .layout {
+        grid-template-columns: 5rem 1fr;
+
+        .aside {
+            width: 5rem;
+        }
+    }
+}

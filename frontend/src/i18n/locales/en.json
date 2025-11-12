@@ -1,0 +1,285 @@
+{
+    "default": {
+        "logout": "Logout",
+        "error": "Error",
+        "errorMessage": "Item not found",
+        "settings": "Settings",
+        "search": "Search by name, source, status, or operation definition",
+        "columnToggle": "Show columns",
+        "all": "All",
+        "copy": "Copy record",
+        "delete": "Delete record",
+        "operation": "Run operation",
+        "loading": "Loading...",
+        "selected": "Selected records",
+        "actions": "Actions",
+        "clearAllFilters": "Clear active filters",
+        "columns": "Columns",
+        "filters": "Filters",
+        "filterManagement": "Filter management",
+        "filterName": "Filter name",
+        "save": "Save",
+        "filterSelect": "Selected filter",
+        "activeFilter": "Active filter:",
+        "operator": "Operator",
+        "value": "Value",
+        "from": "From",
+        "to": "To",
+        "select": "Select...",
+        "selectMultiple": "Select multiple...",
+        "clear": "Clear",
+        "apply": "Apply",
+        "between": "Between",
+        "like": "Contains",
+        "regex": "Regular expression",
+        "true": "True",
+        "false": "False",
+        "in": "In",
+        "loadFilter": "Load filter",
+        "deleteFilter": "Delete filter",
+        "saveFilter": "Save filter",
+        "deleteMessage": "Do you want to delete this record?",
+        "deleteHeader": "Danger zone",
+        "deleteCancel": "Cancel",
+        "operationMessage": "Do you want to run this operation?",
+        "operationHeader": "Run operation",
+        "operationCancel": "Cancel",
+        "operationSuccess": "The operation ran successfully",
+        "operationError": "Operation execution failed",
+        "removed": "Record removed",
+        "removedMessage": "Record successfully removed",
+        "rejected": "Rejected",
+        "rejectedMessage": "Operation rejected",
+        "success": "Success",
+        "successMessage": "Item successfully created",
+        "reset": "Reset",
+        "bulkDelete": "Delete selected",
+        "relativeDate": "Relative date",
+        "relativeDateHint": "Supported format examples: 1d, 1w, 1m, 1y, -2d, 1lom (last of month), 1bom (beginning of month), 1low (last of week), 1bow (beginning of week), 1loy (last of year), 1boy (beginning of year)",
+        "new": "New",
+        "submit": "Submit",
+        "back": "Back",
+        "created": "Created",
+        "failed": "Failed",
+        "edit": "Edit",
+        "saved": "Saved",
+        "unlink": "Remove link",
+        "wait": "Wait please..."
+    },
+    "validations": {
+        "requiredField": "Field {field} is required!",
+        "name": "Name"
+    },
+
+    "login": {
+        "userName": "Username",
+        "password": "Password",
+        "login": "Log in",
+        "login2": "Logging in...",
+        "success": "Success",
+        "successMessage": "Login was successful.",
+        "error": "Error",
+        "errorMessage": "Login failed!",
+        "logout": "Logged out",
+        "logoutMessage": "User has been logged out."
+    },
+    "documentTitle": {
+        "loginPage": "Login",
+        "dashboardPage": "Dashboards",
+        "otPage": "OT",
+        "cashFlowDefinitionsPage": "Cash Flow Definitions",
+        "cashFlowCashEventsPage": "Cash Flow Events",
+        "cashFlowCashEffectsPage": "Cash Flow Effects",
+        "reportsPage": "Reports",
+        "definitionPage": "Operations",
+        "counterpartiesPage": "Counterparties",
+        "creditRiskPage": "Credit Risk",
+        "accountsPage": "Accounts",
+        "accountBalancesPage": "Account Balances",
+        "accountBalanceItemsPage": "Account Balance Items",
+        "accountBalancesBlotterPage": "Account Balances Overview",
+        "accountTimelinesPage": "Account Timelines",
+        "reconciliationItemsPage": "Reconciliation Items",
+        "reconciliationWorkbenchPage": "Reconciliation Workspace",
+        "currenciesPage": "Currencies",
+        "exchangeRatesPage": "Exchange Rates",
+        "interestRatesPage": "Interest Rates",
+        "volatilitiesPage": "Volatilities",
+        "processesPage": "Processes",
+        "filesPage": "Files",
+        "mappingsPage": "Mappings",
+        "scheduledJobsPage": "Scheduled Jobs",
+        "definitionsPage": "Processing Definitions",
+        "operationDefinitionsPage": "Operation Definitions",
+        "operationDefinitionGroupsPage": "Operation Definition Groups",
+        "operationLinkDefinitionsPage": "Operation Link Definitions",
+        "cashEventGenerationScriptsPage": "Cash Event Generation Scripts",
+        "operationLinksPage": "Operation Links",
+        "usersPage": "Users",
+        "usersSettingsPage": "Preferences",
+        "securityGroupsPage": "Security Groups"
+    },
+    "navigation": {
+        "dashboards": "Dashboards",
+        "cashFlow": {
+            "cashFlow": "Cash Flow",
+            "reports": {
+                "reports": "Reports"
+            },
+            "settings": {
+                "settings": "Settings",
+                "definitions": "Report Definitions"
+            },
+            "events": {
+                "events": "Cash Events and Effects",
+                "cashEvents": "Cash Events",
+                "effects": "Effects"
+            }
+        },
+        "reports": {
+            "reports": "Reports",
+            "var": {
+                "var": "VaR Reports"
+            },
+            "comparison": "Comparison"
+        },
+        "operations": {
+            "operations": "Operations"
+        },
+        "counterparties": {
+            "counterparties": "Counterparties",
+            "list": "Counterparty List",
+            "creditRisk": "Credit Risk",
+            "creditRiskManagement": "Credit Risk Management"
+        },
+        "accounts": {
+            "accounts": "Accounts",
+            "list": "Account List",
+            "bankBalance": {
+                "bankBalance": "Bank Balances",
+                "list": "List of Bank Balances",
+                "list2": "List of Balance Items",
+                "manualBalances": "Manual Balance Entry",
+                "balancesTimeline": "Balance Timeline"
+            },
+            "reconciliation": {
+                "reconciliation": "Reconciliation",
+                "reconciliationItems": "Reconciled Items",
+                "manuallyReconciliation": "Manual Reconciliation"
+            }
+        },
+        "markerData": {
+            "markerData": "Market Data",
+            "currency": "Currencies",
+            "list": "Currency List",
+            "currencyRates": "Currency Rates",
+            "interestRates": "Interest Rates",
+            "volatility": "Volatility"
+        },
+        "processing": {
+            "processing": "Processing",
+            "process": {
+                "process": "Processes",
+                "history": "Process History",
+                "uploads": "Uploaded Files",
+                "maping": "Mapping"
+            },
+            "planning": {
+                "planning": "Planning",
+                "scheduledTasks": "Scheduled Tasks"
+            },
+            "scripting": {
+                "scripting": "Scripting",
+                "scripts": "Scripts"
+            }
+        },
+        "administration": {
+            "administration": "Administration",
+            "operation": {
+                "operation": "Operations",
+                "operationDef": "Operation Definitions",
+                "operationCategory": "Operation Definition Categories",
+                "defBetweenOperation": "Operation Links Definitions",
+                "cashEventScripts": "Cash Event Scripts",
+                "linksBetweenOperation": "Links Between Operations"
+            },
+            "security": {
+                "security": "Security",
+                "users": "Users",
+                "usersGroup": "User Groups"
+            }
+        }
+    },
+    "userSettings": {
+        "header": "User Preferences",
+        "formatting": "Formatting",
+        "decimals": "Decimal places",
+        "preferences": "Preference ID",
+        "defaultNumberSeparator": "Default decimal separator",
+        "defaultThousandSeparator": "Default thousands separator",
+        "defaultDecimalPlaces": "Default number of decimal places",
+        "cashFlowDecimalPlaces": "Decimal places for Cash Flow",
+        "save": "Save preferences",
+        "success": "Preferences saved",
+        "successMessage": "Preferences successfully saved",
+        "error": "Error",
+        "errorMessage": "Error saving preferences"
+    },
+    "operations": {
+        "create": "Create new operation",
+        "columns": {
+            "id": "ID",
+            "name": "Name",
+            "status": "Status",
+            "source": "Source",
+            "created": "Created"
+        },
+        "form": {
+            "metaData": "Metadata",
+            "content": "Content",
+            "selectStatus": "Select...",
+            "new": "New operation for",
+            "edit": "Edit operation",
+            "audit": "Audit information",
+            "creator": "Creator",
+            "createdTime": "Created",
+            "updatedBy": "Updated by",
+            "updatedAt": "Updated at",
+            "securityGroup": "Group",
+            "created": "Operation successfully created",
+            "createFailed": "Operation creation failed",
+            "updated": "Operation successfully updated",
+            "updateFailed": "Operation update failed",
+            "operationLinks": "Linked operations",
+            "nooperationLinks": "No linked operations",
+            "linkCreateFailed": "Failed to create link",
+            "linkDeleteFailed": "Failed to remove link",
+            "status": {
+                "na": "N/A",
+                "draft": "Draft",
+                "live": "Published"
+            },
+            "copy": "Copy operation"
+        }
+    },
+    "scripts": {
+        "title": "Scripts",
+        "columns": {
+            "displayName": "Display name",
+            "description": "Description",
+            "type": "Type"
+        },
+        "runScriptTooltip": "Run script"
+    },
+    "processes": {
+        "title": "Process history",
+        "columns": {
+            "id": "ID",
+            "progress": "Progress",
+            "startedBy": "Started by",
+            "lastMessage": "Last message",
+            "startTime": "Start time",
+            "finishTime": "Finish time"
+        }
+    }
+}
